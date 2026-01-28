@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>RailSafe - Features</title>
+
+  <style>
+    *{
+      margin:0;
+      padding:0;
+      box-sizing:border-box;
+      font-family:Segoe UI, sans-serif;
+    }
+
+    body{
+      background:linear-gradient(135deg,#051a2c,#082a3a);
+      color:#fff;
+    }
+
+    header{
+      padding:15px 8%;
+      background:rgba(0,0,0,0.4);
+      display:flex;
+      justify-content:space-between;
+      align-items:center;
+    }
+
+    nav a{
+      color:white;
+      margin:0 15px;
+      text-decoration:none;
+      font-size:17px;
+    }
+
+    nav a:hover{
+      color:#00ffc8;
+    }
+
+    .logo{
+      color:orange;
+      font-size:26px;
+      font-weight:bold;
+    }
+
+    .title{
+      text-align:center;
+      margin:60px 0 20px;
+      font-size:40px;
+    }
+
+    .subtitle{
+      text-align:center;
+      color:#ccc;
+      margin-bottom:50px;
+    }
+
+    .features-grid{
+      display:grid;
+      grid-template-columns:repeat(auto-fit,minmax(250px,1fr));
+      gap:25px;
+      padding:0 10% 80px;
+    }
+
+    .feature-card{
+      background:rgba(255,255,255,0.05);
+      padding:25px;
+      border-radius:15px;
+      border:1px solid rgba(255,255,255,0.1);
+      transition:.3s;
+    }
+
+    .feature-card:hover{
+      transform:translateY(-8px);
+      background:rgba(255,255,255,0.1);
+    }
+
+    .feature-card h3{
+      color:#00ffc8;
+      margin-bottom:10px;
+    }
+
+    footer{
+      text-align:center;
+      padding:15px;
+      background:#000;
+      color:#aaa;
+      font-size:14px;
+    }
+  </style>
+</head>
+
+<body>
+
+<header>
+  <div class="logo">🚆 RailSafe</div>
+  <nav>
+    <a href="http://127.0.0.1:5500/Railways%20safety.html">Home</a>
+    <a href="features.html">Features</a>
+    <a href="#">About</a>
+
+  </nav>
+</header>
+
+<h1 class="title">RailSafe Features</h1>
+<p class="subtitle">Advanced AI-Powered Safety Solutions</p>
+
+<section class="features-grid">
+
+  <div class="feature-card">
+    <h3>🚨 Real-time Accident Detection</h3>
+    <p>AI models detect hazards instantly using sensors & CCTV cameras.</p>
+  </div>
+
+  <div class="feature-card">
+    <a href="map.html"><h3>📍 Live Train Tracking</h3>
+    <p>Real-time GPS-based tracking for monitoring train movements.</p></a>
+  </div>
+
+  <div class="feature-card">
+    <h3>🧠 AI Predictive Analysis</h3>
+    <p>Machine learning predicts possible accidents before they happen.</p>
+  </div>
+
+  <div class="feature-card">
+    <h3>📷 CCTV Smart Monitoring</h3>
+    <p>Computer vision identifies track obstacles and trespassing.</p>
+  </div>
+
+  <div class="feature-card">
+    <h3>🔔 Smart Alert System</h3>
+    <p>Automatic alerts sent to drivers, control rooms, and emergency teams.</p>
+  </div>
+
+  <div class="feature-card">
+    <h3>🆘 Emergency SOS System</h3>
+    <p>One-click emergency alert for fast rescue operations.</p>
+  </div>
+
+  <div class="feature-card">
+    <h3>📡 IoT Sensor Network</h3>
+    <p>Track vibration, temperature, and cracks using IoT sensors.</p>
+  </div>
+
+  <div class="feature-card">
+    <h3>📊 Central Control Dashboard</h3>
+    <p>Live monitoring dashboard for railway authorities.</p>
+  </div>
+
+</section>
+
+<footer>
+  © 2026 RailSafe | All Rights Reserved
+</footer>
+
+</body>
+</html>
